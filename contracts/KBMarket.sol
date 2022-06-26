@@ -1,4 +1,4 @@
-//SPDX-License-Indentifier:MIT
+//SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
 // should bring oepnzeppelin ERC721 functionality
@@ -79,7 +79,7 @@ contract KBMarket is ReentrancyGuard {
     //2. create a market sale for buying and selling between parties
 
 
-    function mintMarketItem(
+    function makeMarketItem(
         address nftContract,
         uint tokenId,
         uint price
