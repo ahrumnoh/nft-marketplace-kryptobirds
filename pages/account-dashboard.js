@@ -64,7 +64,7 @@ export default function AccountDashBoard() {
   return (
     <div className='p-4'>
         <h1 style={{fontSize:'20px', color:'purple'}}>Tokens Minted</h1>
-          <div className='px-4' style={{maxWidth: '1600px'}}>
+          <div className='px-4' style={{maxWidth: '300px'}}>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
             {
               nfts.map((nft, i)=>(
